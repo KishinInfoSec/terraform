@@ -47,7 +47,9 @@ out/
 *.egg
 *.whl
 # Terraform
-.terraform/
+main.tf
+main.tf/*
+*.terraform/
 *.tfstate
 *.tfstate.*
 crash.log
@@ -82,3 +84,5 @@ credentials.*
 .cache/
 # Optional: hide workspace-specific files
 #/workspace/
+main
+main/*
